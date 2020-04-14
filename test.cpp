@@ -2,7 +2,7 @@
 #include<stdio.h>
 using namespace std;
 int main(int args,char* argv[]){
-    cout<<"--------------------------------------"<<endl;
+    cout<<"---------------zhangzongyao-----------------------"<<endl;
     for (int i = 0; i < args; i++)
     {
         cout<<argv[i]<<endl;
