@@ -1,9 +1,11 @@
 #include<iostream>
 #include<stdio.h>
+
 using namespace std;
-int main(int args,char* argv[]){
+
+int main(int argc,char* argv[]){
     cout<<"--------------------------------------"<<endl;
-    for (int i = 0; i < args; i++)
+    for (int i = 0; i < argc; i++)
     {
         cout<<argv[i]<<endl;
     }
